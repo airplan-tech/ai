@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "airplan": {
+      "type": "http",
+      "url": "https://workspace.airplan.be/mcp/workspace"
+    }
+  }
+}

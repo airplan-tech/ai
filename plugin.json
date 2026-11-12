@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "airplan",
+  "version": "0.1.0",
+  "description": "Vos permis d’urbanisme, préparés avec votre IA",
+  "author": {
+    "name": "Airplan",
+    "email": "bonjour@airplan.be",
+    "url": "https://airplan.be"
+  },
+  "homepage": "https://airplan.be",
+  "repository": "https://github.com/airplan-tech/ai",
+  "license": "Apache-2.0",
+  "keywords": [
+    "airplan",
+    "permis",
+    "ubranisme",
+    "permis-urbanisme",
+    "wallonie",
+    "walonmap",
+    "annexe-4"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Airplan",
+        "shortDescription": "Vos permis d’urbanisme, préparés avec votre IA",
+        "longDescription": "Airplan prépare les dossiers de permis d’urbanisme en Wallonie. Connectez votre compte pour que votre agent travaille directement dans vos projets :\n\n* Analyser une parcelle à partir de son adresse : réglementation et contraintes applicables\n* Compléter les formulaires du dossier\n* Traiter un avis d’incomplétude et mettre le projet à jour\n* Alimenter le reportage photo\n\nUn compte Airplan est nécessaire. Les études de faisabilité sont incluses dans l’abonnement.",
+        "developerName": "Airplan",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://airplan.be",
+        "supportURL": "https://airplan.be/aide",
+        "privacyPolicyURL": "https://airplan.be/rgpd",
+        "termsOfServiceURL": "https://airplan.be/cgu",
+        "defaultPrompt": [
+          "Crée une étude de faisabilité pour le Boulevard Ernest Mélot 50 à Namur.",
+          "Fais le point sur mes projets en cours : que reste-t-il à compléter ?",
+          "J’ai reçu un avis d’incomplétude : aide-moi à mettre mon projet à jour."
+        ],
+        "brandColor": "#649DAD",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}

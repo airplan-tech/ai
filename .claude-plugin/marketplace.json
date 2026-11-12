@@ -1,0 +1,17 @@
+{
+  "name": "airplan",
+  "owner": {
+    "name": "Airplan",
+    "email": "bonjour@airplan.be"
+  },
+  "metadata": {
+    "description": "Vos permis d’urbanisme, préparés avec votre IA"
+  },
+  "plugins": [
+    {
+      "name": "airplan",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

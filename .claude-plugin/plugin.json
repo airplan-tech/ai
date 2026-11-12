@@ -1,0 +1,28 @@
+{
+  "name": "airplan",
+  "displayName": "Airplan",
+  "version": "0.1.0",
+  "description": "Vos permis d’urbanisme, préparés avec votre IA",
+  "author": {
+    "name": "Airplan",
+    "email": "bonjour@airplan.be",
+    "url": "https://airplan.be"
+  },
+  "homepage": "https://airplan.be",
+  "repository": "https://github.com/airplan-tech/ai",
+  "license": "Apache-2.0",
+  "keywords": [
+    "airplan",
+    "permis",
+    "ubranisme",
+    "permis-urbanisme",
+    "wallonie",
+    "walonmap",
+    "annexe-4"
+  ],
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://airplan.be",
+  "supportUrl": "https://airplan.be/aide",
+  "privacyPolicyUrl": "https://airplan.be/rgpd",
+  "termsOfServiceUrl": "https://airplan.be/cgu"
+}
