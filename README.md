@@ -77,10 +77,12 @@ Dans l’application **Claude Desktop** ou sur **Claude.ai** :
 
 ### Claude Code
 
-Dans votre terminal, avec une version récente de Claude Code, exécutez :
+Dans votre terminal, avec une version récente de Claude Code, ajoutez le
+catalogue puis installez le plugin :
 
 ```bash
-claude plugin install airplan --marketplace airplan-tech/ai --scope user
+claude plugin marketplace add airplan-tech/ai
+claude plugin install airplan@airplan
 ```
 
 Lancez ensuite la connexion à Airplan :
